@@ -1,0 +1,38 @@
+{
+  "name": "many-faces-of-js-modules",
+  "version": "1.0.0",
+  "description": "JavaScript modules demo",
+  "scripts": {
+    "start": "rimraf dist && webpack"
+  },
+  "main": "dist/demo.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aush/many-faces-of-js-modules.git"
+  },
+  "keywords": [
+    "javascript",
+    "module",
+    "commonjs",
+    "amd",
+    "umd",
+    "es6",
+    "systemjs",
+    "typescript"
+  ],
+  "author": "Anton Matveev <aush.tx@gmail.com> (http://github.com/aush)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aush/many-faces-of-js-modules/issues"
+  },
+  "homepage": "https://github.com/aush/many-faces-of-js-modules",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "express": "*"
+  }
+}
