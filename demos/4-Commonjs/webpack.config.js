@@ -1,12 +1,9 @@
 var path = require('path');
 
 module.exports = {
-  entry: [
-    './src/lib.global.js',
-    './src/lib.commonjs.js',
-  ],
+  entry: './src/app.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'demo.js'
+    filename: 'bundle.js'
   }
 };

@@ -1,7 +1,0 @@
-.npmignore
-node_modules
-npm-debug.log
-src
-.babelrc
-.gitignore
-webpack.config.js

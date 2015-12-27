@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "webpack && ncp src/lib.umd.js dist/lib.umd.js"
+  }
+}

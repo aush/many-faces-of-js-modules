@@ -2,10 +2,6 @@
   "name": "many-faces-of-js-modules",
   "version": "1.0.0",
   "description": "JavaScript modules demo",
-  "scripts": {
-    "start": "rimraf dist && webpack"
-  },
-  "main": "dist/demo.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/aush/many-faces-of-js-modules.git"
@@ -25,14 +21,5 @@
   "bugs": {
     "url": "https://github.com/aush/many-faces-of-js-modules/issues"
   },
-  "homepage": "https://github.com/aush/many-faces-of-js-modules",
-  "devDependencies": {
-    "babel-core": "*",
-    "babel-loader": "*",
-    "babel-preset-es2015": "*",
-    "typescript": "*"
-  },
-  "dependencies": {
-    "express": "*"
-  }
+  "homepage": "https://github.com/aush/many-faces-of-js-modules"
 }
